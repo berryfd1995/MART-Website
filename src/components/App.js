@@ -11,6 +11,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+          <Link to='/Contact'>Contact</Link>
+          <Link to='/'>Home</Link>
           <Route path="/" exact render={(props) => (<Home {...props}/>)} />
           <Route path="/About" exact render={(props) => (<About {...props}/>)} />
           <Route path="/Contact" exact render={(props) => (<Contact {...props}/>)} />
