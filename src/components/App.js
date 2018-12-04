@@ -6,13 +6,14 @@ import Contact from './contact/Contact';
 import About from './about/About';
 import Works from './works/Works';
 import Footer from './common/Footer';
+import Navbar from './common/Navbar';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <Link to='/Contact'>Contact</Link>
-          <Link to='/'>Home</Link>
+          <Navbar/>
           <Route path="/" exact render={(props) => (<Home {...props}/>)} />
           <Route path="/About" exact render={(props) => (<About {...props}/>)} />
           <Route path="/Contact" exact render={(props) => (<Contact {...props}/>)} />
