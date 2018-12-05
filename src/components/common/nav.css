@@ -9,8 +9,9 @@ ul {
 
 li {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     height: 100%;
+    float: right;
 }
 
 li a {

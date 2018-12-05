@@ -15,10 +15,10 @@ class Navbar extends Component{
     return (
       <div>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/Works">Works</Link></li>
-          <li><Link to="/About">About</Link></li>
           <li><Link to="/Contact">Contact</Link></li>
+          <li><Link to="/About">About</Link></li>
+          <li><Link to="/Works">Works</Link></li>
+          <li><Link to="/">Home</Link></li>
         </ul>
       </div>
     );
