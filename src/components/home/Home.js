@@ -9,9 +9,11 @@ class Home extends Component{
   }
   render(){
     return (
-      <div >
-        home
-      </div>
+      <Container className="parent">
+        <div className="center">
+          Home
+        </div>
+      </Container>
     );
   }
 }

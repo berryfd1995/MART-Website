@@ -12,13 +12,16 @@ import Navbar from './common/Navbar';
 class App extends Component {
   render() {
     return (
-      <div className="App background">
-          <Navbar/>
-          <Route path="/" exact render={(props) => (<Home {...props}/>)} />
-          <Route path="/About" exact render={(props) => (<About {...props}/>)} />
-          <Route path="/Contact" exact render={(props) => (<Contact {...props}/>)} />
-          <Route path="/Works" exact render={(props) => (<Works {...props}/>)} />
-          <Footer/>
+      <div>
+        <div className="background"/>
+        <div className="App">
+            <Navbar/>
+            <Route path="/" exact render={(props) => (<Home {...props}/>)} />
+            <Route path="/About" exact render={(props) => (<About {...props}/>)} />
+            <Route path="/Contact" exact render={(props) => (<Contact {...props}/>)} />
+            <Route path="/Works" exact render={(props) => (<Works {...props}/>)} />
+            <Footer/>
+        </div>
       </div>
     );
   }
