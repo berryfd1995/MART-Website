@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import {
- Button, Row, Col, Container
-} from 'reactstrap';
+import {Button, Row, Col, Container} from 'reactstrap';
+import './home.css';
 //This is an example page. Each page should have its own folder.
 class Home extends Component{
   constructor(props){
@@ -10,9 +9,9 @@ class Home extends Component{
   }
   render(){
     return (
-      <Container>
-
-      </Container>
+      <div >
+        home
+      </div>
     );
   }
 }

@@ -1,15 +1,16 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
     overflow: hidden;
-    background-color: #CDCDCD;
+    background-color: transparent;
+    height: 100px;
 }
 
 li {
-    text-align: center;
     display: inline-block;
-    margin-left: 10px;
+    margin: 20px;
+    height: 100%;
 }
 
 li a {
@@ -18,7 +19,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    text-align: center;
 }
 
 /* Change the link color to #111 (black) on hover */
