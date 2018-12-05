@@ -24,4 +24,10 @@
   min-height:100vh;
   color: white;
   overflow: hidden;
+  transition-duration: 2s;
+}
+.background:active{
+      transform: scale(4);
+      z-index: -10;
+      position:relative;
 }
