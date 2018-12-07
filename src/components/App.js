@@ -6,10 +6,8 @@ import Home from './home/Home';
 import Contact from './contact/Contact';
 import About from './about/About';
 import Works from './works/Works';
-import Footer from './common/Footer';
 import Navbar from './common/Navbar';
 import HomeBG from './common/background2.jpg';
-import OtherBG from './common/mainbackground.gif';
 
 import './App.css';
 
@@ -36,7 +34,6 @@ class App extends Component {
             <Route path="/About" exact render={(props) => (<About {...props}/>)} />
             <Route path="/Contact" exact render={(props) => (<Contact {...props}/>)} />
             <Route path="/Works" exact render={(props) => (<Works {...props}/>)} />
-            <Footer/>
         </div>
       </div>
     );
